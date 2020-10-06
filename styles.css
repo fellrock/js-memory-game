@@ -10,6 +10,14 @@ body {
     background: #060AB2
 }
 
+.score {
+    width: 150px;
+    height: 50px;
+    float: right;
+    display: block;
+    border: 2px solid lime;
+}
+
 .memory-game {
     width: 640px;
     height: 640px;
@@ -17,6 +25,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     perspective: 1000px;
+    border: 2px solid lime;
 }
 .memory-card {
     width: calc(25% - 10px);
